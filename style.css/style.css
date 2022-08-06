@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;}
+
+header{
+    position: relative;
+    background-image: url(../Kerakli/slider/1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.mask{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.chiziq{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.col-3 h1{
+    color: white;
+    font-weight: 750;
+}
+
+.toggle,input{                                                                                                                                                                                                                                                                                                                                                                      
+    display: none;
+}
+
+.toggle span{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:white;
+}
+
+
+
+.btn{
+    display: flex;
+    justify-content: right;
+}
+
+li button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border:1px solid white;
+    margin: 0 auto;
+}
+
+.balandlik{
+    height: 850px;
+}
+/* .text{
+    margin: 0 auto;
+} */
+.text h1{
+    color: white;
+}
+
+.text p{
+    color: white;
+   margin: 50px 0;
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+.text button{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(216, 29, 91);
+    color: white;
+    cursor: pointer;
+}
+
+.navgation{
+    padding: 80px 0;
+}
+
+.box1{
+    display: flex;
+    transition: .5s;
+}
+
+.box1:hover{
+    flex-direction: row-reverse;
+    box-shadow: rgba(140, 9, 9, 0.519) 0px -23px 25px 0px inset, rgba(77, 12, 44, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.img{
+    width: 50%;
+  
+}
+
+.texti{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.balandli{
+    height: 400px;
+}
+
+
+
+.matn h1,p{
+    margin: 20px 0;
+    
+}
+
+.matn p{
+    color: grey;
+}
+
+.matn button{
+    display: block;
+    background-color: rgb(206, 25, 55);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.matn button:hover{
+    box-shadow:  rgb(38, 43, 77) 0px 20px 30px -10px;
+    transition: .5s;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.box2 img{
+    width: 60px;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.box2:hover{
+    border: 1px solid wheat;
+    box-shadow: rgb(172, 13, 196) 0px 20px 30px -10px;
+}
+
+.presingplan{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.basic{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height: 420px;
+    text-align: center;
+}
+
+.basic h2{
+    padding: 20px 0;
+    font-weight: 150;
+    color: gray;
+}
+
+.basic p{
+    padding: 3px 0;
+    color: gray;
+}
+
+.basic button{
+    padding: 10px ;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.basic button:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: blue;
+}
+
+.basic button:hover{
+    background-color: rgb(209, 1, 36);
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.standart{
+    background-color: rgb(155, 25, 64);
+    color: white;
+}
+
+.name{
+    display: block;
+    border: 1px solid gray;
+    padding: 8px 90px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.pic{
+    display: flex;
+}
+
+.send{
+    margin: 80px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.send button{
+    display: block;
+    padding: 5px 20px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgb(255, 0, 85);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.futer{
+    background-color: rgb(255, 0, 85);
+}
+
+.phone{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.phone i{
+    display: block;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.phone p{
+    text-align: center;
+    
+    color: white;
+}
+
+.ul .li {
+    display: inline-block;
+}
+
+.ul .li.a{
+    text-decoration: none;
+}
+.ul .li .a i{
+    display: block;
+    width: 100px;
+    color: white;
+}
+.icon{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+@media (max-width:768px){
+    .navbar{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(184, 35, 35);
+        transition: .5s;
+        
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+    }
+    .navbar li{
+        padding: 25px 0;
+        color: white;
+        font-size: 22px;
+    }
+    .toggle{
+        display: block;
+    }
+    .toggle span{
+        display: block;
+        width: 30px;
+        height: 8px;
+        background-color: white;
+        margin: 3px 10px;
+        border-radius: 15px;
+
+    }
+
+    input:checked ~ nav .navbar{
+        top: 60px;
+    }
+
+    .pic{
+        display: block;
+    }
+    
+    .name{
+        display: block;
+        border: 1px solid gray;
+        padding: 8px 60px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    
+}
